@@ -1,5 +1,6 @@
 #include "header.h"
 
+
 void dynamic_add(int** arr, int *cap) {
 
     *cap = ceil( *(cap) * 1.5);

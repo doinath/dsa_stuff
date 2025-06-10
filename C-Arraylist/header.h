@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+// basic operation
 void add(int** arr, int *size, int *cap, int val);
 void remove(int** arr, int* size, int* cap, int val);
 void print(int* arr, int *size, int *cap);
@@ -16,5 +17,5 @@ void dynamic_deduce(int** arr, int *cap);
     insertAt
     removeAll
     sortAsc or sortDesc
-    
+
 */

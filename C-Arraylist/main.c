@@ -5,6 +5,7 @@ int main() {
     int *arr;
     int cap = 5, size = 0;
     int choice, val;
+    arr = (int*) malloc (sizeof(int) * cap);
 
     do {
         printf("\n[1] Add\n[2] Remove\n[3] Print\n[0] Exit\nChoose: ");
