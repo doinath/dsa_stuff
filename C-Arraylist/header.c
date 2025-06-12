@@ -18,7 +18,7 @@ void dynamic_deduce(int** arr, int *cap) {
 
 void add(int** arr, int *size, int *cap, int val) {
 
-    if (*(size) == *(cap) ) {
+    if ( *(size) == *(cap) ) {
         dynamic_add(arr, cap);
     }
 
@@ -26,6 +26,7 @@ void add(int** arr, int *size, int *cap, int val) {
 }
 void remove(int** arr, int* size, int* cap, int val) {
 
+    
     for (int i = 0; i < *(size); i++) {
 
         if (*(arr)[i] == val) {
